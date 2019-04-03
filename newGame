@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    cout << "Hello in my Game!!\n" << "This is games sea war!\n" << "Want to start a GAME?? (1)yes (2)no\n";
+
+    int a=0;
+    cin >> a;
+    if (a<=1)
+    {
+        cout << "start Game\n";
+
+    }
+    else
+    {
+        cout << "exit to game!  Beyyyyy!!"<< endl;
+
+    }
+
+
+
+
+
+    return 0;
+
+}
